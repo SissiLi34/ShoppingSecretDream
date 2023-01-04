@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ShoppingSecretDream" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <!--Creer le composant titre par defaut-->
+    <!--pack qui regroupe différentes propriétés qui composent un design-->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:textSize">18sp</item>
+        <!--<item name="android:fontFamily">@font/Roboto</item>-->
+    </style>
+
+    <!--Les sous-titres ont la même caractéristique que l'ecriture par défaut-->
+    <style name="SubtitleTextStyle" parent="DefaultTextStyle">
+        <item name="android:textColor">@color/darkGray</item>
+        <!--<item name="android:fontFamily">@font/Roboto-Bold.ttf</item>-->
+    </style>
+
+    <!--Les titres ont la même caractéristique que les sous-titres mais en + grand-->
+    <style name="TitleTextStyle" parent="SubtitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <!--<item name="android:fontFamily">@font/Roboto-Bold.ttf</item>-->
+    </style>
+    
+</resources>

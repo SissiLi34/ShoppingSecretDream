@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "860490070570",
+    "firebase_url": "https://shopping-secret-dream-default-rtdb.firebaseio.com",
+    "project_id": "shopping-secret-dream",
+    "storage_bucket": "shopping-secret-dream.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860490070570:android:ec1228511f682080f5a153",
+        "android_client_info": {
+          "package_name": "fr.sissi.shoppingsecretdream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860490070570-fc0v35k8gv1c5sbnlk6qrm40dsdt41ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAunJg7Exdj5UDn9xmO6o6jZ432BWg2_vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860490070570-fc0v35k8gv1c5sbnlk6qrm40dsdt41ok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
